@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
+
 </head>
 <body>
-    <header>
-        <img src="https://i.postimg.cc/QMJnsN5q/Sakhe-logos.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#project">Project</a></li>
+    <header> 
+        <img class="logo" src="https://i.postimg.cc/QMJnsN5q/Sakhe-logos.jpg" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list"> 
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#project">Project</a></li>|
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,22 +23,37 @@
     <main>
         <!--  -->
         <section id="home">
-            <h2>Home</h2>
-            <div>
-                <h4>Sakhe Mzolisa</h4>
-                <img src="https://i.postimg.cc/QMJnsN5q/Sakhe-logos.jpg" alt="Sakhe Profile">
-                <p>Web developer</p>
-            </div>
+            <h4>Sakhe Mzolisa</h4>
+            <img src="https://i.postimg.cc/VsTN8zzM/young-black-man-working-computer-office-business-desk-flat-style-illustration-190283826.jpg" alt="Sakhe Profile">
+            <p>Aspiring front end developer</p>
         </section>
         <!--  -->
         <section id="resume"></section>
             <h2>Resume</h2>
+            <p>I studied at Goodwood College and matriculated in 2017 with bachelors admission pass. Between 2018 and 2021 I enrolled at Uwc and studied Bachelor of Arts majoring in History and political studies, I unfortunately could not finish my studies due to financial constraints. During this period between 2020 and September 2022, I was employed at Mr D Customer Service, operating as flexi perm inbound customer service agent.</p>
         <!--  -->
         <section id="project"></section>
             <h2>Project</h2>
         <!--  -->
         <section id="contact"></section>
             <h2>Contact</h2>
+            <form action="https://formspree.io/f/myyvjokg" method="Post">
+                <div>
+                    <label for="#firstname">Name</label>
+                    <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="#Surname">Surname</label>
+                    <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                </div>
+                <div>
+                    <label for="#Message">Message</label>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
+            </form>
     </main>
 </body>
 </html>
