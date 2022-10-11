@@ -48,6 +48,9 @@ header, footer {
     text-decoration: none;
     color: white;
 }
+.menu-list li a:hover {
+
+}
 /* main */
 /* heading */
 h1, h2, h3, h5, h6 {
