@@ -1,3 +1,5 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 /* select all elements */
 *{
     margin: 0;
@@ -48,8 +50,18 @@ header, footer {
     text-decoration: none;
     color: white;
 }
+body {
+    background-image: url("https://i.postimg.cc/VkKg9qX2/alex-knight-c4-Fvlp63y-AQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .menu-list li a:hover {
-
+    color: rgb(230, 104, 59);
+}
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
 }
 /* main */
 /* heading */
@@ -59,7 +71,7 @@ h1, h2, h3, h5, h6 {
 }
 /* home */
 #home {
-    background-color: rgba(106, 115, 92, .7);
+    background-color: none;
     height: calc(100vh - 4em);
     width: 100%;
     border: 3px solid black;
