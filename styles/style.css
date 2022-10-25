@@ -1,0 +1,27 @@
+/* Universal Styling */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://i.postimg.cc/TPf6v1n6/99815.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    opacity: 25;
+}
+/* header */
+.logo {
+    width: 5rem;
+}
+/* section {
+    height: 65vh;
+    scroll-margin-top: 100px;
+} */
+#home {
+    scroll-margin-block-start: 100px;
+}
+
