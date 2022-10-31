@@ -125,9 +125,10 @@ section {
     background-color: grey;
     color: white;
     transform: rotateY(180deg);
-} @media screen (max-width){
+} @media screen and (max-width:720px){
     .timeline-items::before{
         left: 7px;
+        display: none;
     }
     .timeline-item:nth-child(odd) {
         padding-right: 0;
@@ -136,8 +137,13 @@ section {
     .timeline-item:nth-child(odd)
     .timeline-item:nth-child(even) {
         padding-left: 37px;
+        margin-right: auto;
     }
     .timeline-dot {
         left: 0;
+        display: none;
+    }
+    .timeline-item {
+        background-color: ;
     }
 }
