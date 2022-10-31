@@ -9,15 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">  
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="../portfolio/images/logo.jpg" type="image/x-icon" />
+    <link rel="icon" href="https://i.postimg.cc/fTCYqQsG/Sakhe-logos.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Portfolio</title>
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top w-100 top-0">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top w-100 top-0 bg-dark">
         <div class="container-fluid">
-            <nav class="navbar bg-dark">
+            <nav class="navbar ">
                 <div class="container">
                   <a class="navbar-brand" href="#">
                     <img class="logo rounded-circle" src="https://i.postimg.cc/fTCYqQsG/Sakhe-logos.jpg" alt="Bootstrap">
@@ -28,18 +28,21 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-black">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i>Home|</a>
+                <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#work/education">Work/Education|</a>
+                <a class="nav-link active" aria-current="page" href="#work/education">|Work/Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skills">Skills|</a>
+                <a class="nav-link active" aria-current="page" href="#skills">|Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects">Projects|</a>
+                <a class="nav-link active" aria-current="page" href="#projects">|Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#testimonials">|Testimonials</a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link" href="https://www.youtube.com/watch?v=UsQL_P1emMM"target="blank">Resume</a>
@@ -54,7 +57,7 @@
       </nav>
       <main >
         <!-- Home -->
-        <section id="home" class="container ">
+        <section id="home" class="container bg-gradient">
           <h2 class="display-2 ">Biography</h2>
           <div>
             <img src="https://i.postimg.cc/nhdjy5PV/image.jpg" class="img-thumbnail" alt="...">
@@ -67,43 +70,38 @@
           </p>
         </section>
         <!-- Work / Education -->
-        <section id="work/education" class="container">
-          <div class="container">
-            <div class="row">
-              <h2 class="display-2"><strong>Education</strong></h2>
-              <div class="col">
-                <p class="lead">Goodwood College</p>
-                <p class="lead">2013-2017</p>
-              </div>
-              <div class="col-">
-
-              </div>
+        <section id="work/education" class="container bg-gradient">
+          <h1 class="display-1">Timeline</h1>
+         <div class="timeline-items">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3 class="display-3">Life Choices Coding Academy</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati numquam mollitia, laudantium cupiditate illo iusto, amet voluptates magnam excepturi, ratione a. Cum eum perferendis in esse consequuntur, aspernatur voluptatum?</p>
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <h1 class="display-1">Work Experience</h1>
-              <div class="col">
-                <p class="lead">Mr D Food Customer Service Agent</p>
-                <p class="lead">2020-2022</p>
-              </div>
-              <div class="col">
-                <p class="lead">References</p>
-                <p class="lead">Keagan Schroonrad <span>Team Leader</span></p>
-              </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2018 - 2021</div>
+            <div class="timeline-content">
+              <h3 class="display-3">Life Choices Coding Academy</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati numquam mollitia, laudantium cupiditate illo iusto, amet voluptates magnam excepturi, ratione a. Cum eum perferendis in esse consequuntur, aspernatur voluptatum?</p>
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col">
-
-              </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2013 - 2017</div>
+            <div class="timeline-content">
+              <h3 class="display-3">Life Choices Coding Academy</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio obcaecati numquam mollitia, laudantium cupiditate illo iusto, amet voluptates magnam excepturi, ratione a. Cum eum perferendis in esse consequuntur, aspernatur voluptatum?</p>
             </div>
           </div>
+         </div>
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="container">
+        <section id="skills" class="container bg-gradient">
           <h2 class="display-2">Skills</h2>
           <p class="lead"><i class="bi bi-filetype-html"></i>HTML</p>
           <div class="progress">
@@ -123,7 +121,7 @@
           </div>
         </section>
         <!-- Projects -->
-        <section id="projects" class="container">
+        <section id="projects" class="container-fluid">
           <h2 class="display-2">Projects</h2>
           <div class="container text-dark">
             <div class="row">
@@ -161,36 +159,106 @@
               </div>
             </div>
           </div>
-        <!-- contact -->
-        <section id="contact" class="container text-center">
-          <h2 class="display-2">Contact</h2>
-          <div class="row">
-            <div class="col">     <form action="https://formspree.io/f/xjvzooze">
-              <div>
-                <label for="#firstname">Name</label>
-                <input id="firstname"name="firstName"type="text" placeholder="Enter your name" required>
+          </section>
+          <!-- Testimonials -->
+          <section id="testimonial" class="container-fluid text center">
+            <h2 class="display-2">Testimonials</h2>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-3">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://i.postimg.cc/gcVG78kt/blank-profile-picture-973460-1280.webp" class="img-fluid" alt="Blank">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 class="display-1"></h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, id?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-3">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://i.postimg.cc/gcVG78kt/blank-profile-picture-973460-1280.webp" class="img-fluid" alt="Blank">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 class="display-1"></h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, id?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://i.postimg.cc/gcVG78kt/blank-profile-picture-973460-1280.webp" class="img-fluid" alt="Blank">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 class="display-1"></h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, id?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://i.postimg.cc/gcVG78kt/blank-profile-picture-973460-1280.webp" class="img-fluid" alt="Blank">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1 class="display-1"></h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, id?</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-          <div>
-              <label for="#firstname">Surname</label>
-              <input id="surname" name="surname" type="text" placeholder="Enter your surname"required>
-          </div>
-            <div>
-              <label for="#firstname">Message</label>
-              <textarea name="message" cols="30" rows="10"></textarea>
-            </div>
-             <div>
-              <input type="submit" value="submit">
-            </div>
-      </form></div>
-          </div>
-      </main>
+            </div>        
 
-
+          </section>
+        <!-- contact -->
+        <section id="contact" class="container text-center bg-gradient">
+          <h2 class="display-2">Contact</h2>
+          <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>       
       
       <footer>
         <p class="text-white text-center">Copyright &copy; 2022</p>
       </footer>
-
+      </section>
       <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
