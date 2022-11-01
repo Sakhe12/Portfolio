@@ -14,6 +14,33 @@ body {
     opacity: 25;
     text-align: center;
 }
+#projects {
+    min-height: 50vw;
+}
+.carousal-inner img {
+    margin: auto;
+    height: 60vh;
+}
+#opening {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: example 5s infinite;
+    animation-direction: alternate;
+}
+#heading {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: example 3s infinite;
+    animation-direction: 3s alternate;
+}
+
+
+@keyframes example {
+   from {left:0% ;}
+   to {left: 20%;}
+}
 /* header */
 .logo {
     width: 5rem;
