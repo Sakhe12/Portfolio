@@ -33,60 +33,6 @@ section {
 }
 
 /* Work/Education */
-.timeline-section {
-    background-color: black;
-    min-height: 100vh;
-    padding: 100px 15px;
-}
-.timeline-items {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-}
-.timeline-items::before {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    background-color: darkslategray;
-    left: calc(50% - 1px);
-}
-.timeline-item {
-    margin-bottom: 40px;
-    width: 100%;
-    position: relative;
-}
-.timeline-item:last-child{
-    margin-bottom: 0;
-}
-.timeline-item:nth-child(odd) {
-    padding-right: calc(50% + 30px);
-    text-align: right;
-}
-.timeline-item:nth-child(even) {
-    padding-left: calc(50% + 30px);
-}
-.timeline-dot {
-    height: 16px;
-    width: 16px;
-    background-color: darkslategrey;
-    position: absolute;
-    left: calc(50% - 8px);
-    border-radius: 50%;
-    top: 10px;
-}
-.timeline-date {
-    font-size: 18px;
-    color: darkslategray;
-    margin: 6px 0 15px;
-}
-.timeline-content {
-    background-color: grey;
-    padding: 30px;
-    border-radius: 5px;
-}
 
 /* Testimonials */
 .flip-card {
@@ -125,25 +71,7 @@ section {
     background-color: grey;
     color: white;
     transform: rotateY(180deg);
-} @media screen and (max-width:720px){
-    .timeline-items::before{
-        left: 7px;
-        display: none;
-    }
-    .timeline-item:nth-child(odd) {
-        padding-right: 0;
-        text-align: left;
-    }
-    .timeline-item:nth-child(odd)
-    .timeline-item:nth-child(even) {
-        padding-left: 37px;
-        margin-right: auto;
-    }
-    .timeline-dot {
-        left: 0;
-        display: none;
-    }
-    .timeline-item {
-        background-color: ;
-    }
+} 
+@media screen and (max-width:720px){
+   
 }
