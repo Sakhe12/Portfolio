@@ -26,31 +26,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-black">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i>Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"><i class="fa-solid fa-house fa-shake"></i>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#resume"><i class="bi bi-briefcase-fill"></i>Resume</a>
+                <a class="nav-link active" aria-current="page" href="#resume"><i class="fa-solid fa-briefcase fa-shake"></i>Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                <a class="nav-link active" aria-current="page" href="#skills"><i class="fa-solid fa-wrench fa-shake"></i>Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects"><i class="bi bi-lightbulb"></i>Projects</a>
+                <a class="nav-link active" aria-current="page" href="#projects"><i class="bi bi-git"></i>Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#testimonial"><i class="bi bi-search"></i>Testimonial</a>
+                <a class="nav-link active" aria-current="page" href="#testimonial"><i class="fa-solid fa-search fa-shake"></i>Testimonial</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="https://www.youtube.com/watch?v=UsQL_P1emMM"target="blank">Resume</a>
-              </li> -->
-                  <a class="nav-link active" aria-current="page" href="#contact"resume><i class="bi bi-envelope-fill"></i>Contact</a>
+                  <a class="nav-link active" aria-current="page" href="#contact"> <i class="fa-solid fa-envelope fa-shake"></i>Contact</a>
                 </li>
               </li>
-
             </ul>
           </div>
         </div>
     </nav>
+    
     <main>
         <!-- Home -->
         <section id="home" class="container bg-gradient">
@@ -165,7 +162,7 @@
           <section id="testimonial" class="container text center">
             <h2 class="display-2">Testimonials</h2>
             <!-- <div class="container-fluid"> -->
-              <div class="row d-flex flex-column flex-md-row gap-1">
+              <div class="row d-flex flex-column flex-md-row gap-2">
                 <div class="col-3 col-md-3">
                   <div class="flip-card">
                     <div class="flip-card-inner">
@@ -222,30 +219,62 @@
           </section>
         <!-- contact -->
         <section id="contact" class="container text-center bg-gradient">
-          <h2 class="display-2">Contact</h2>
-          <form
-          action="https://formspree.io/f/mlevoeqb"
-          method="post"
-          >
-              <div class="mb-3 text-center">
-                  <label for="exampleInputName" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="exampleInputName1" name="fullname" aria-describedby="nameHelp" required>
-                </div>
-              <div class="mb-3 text-center">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">This is confidential infomation </div>
-              </div>
-              <div class="mb-3 text-center">
-                <label for="exampleInputmessage1" class="form-label">Message</label>
-                <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-                <input type="text" class="form-control" id="exampleInputmessage1" name="message" required>
-                <div id="messagedHelp" class="form-text"></div>
-              </div>
-              <button type="submit" class="btn btn-success">Submit</button>
-            </form>
-      
+                <h2 class="display-2">Contact</h2>
+                <form
+                action="https://formspree.io/f/mlevoeqb"
+                method="post"
+                >
+                    <div class="mb-3 text-center">
+                        <label for="exampleInputName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputName1" name="fullname" aria-describedby="nameHelp" required>
+                      </div>
+                    <div class="mb-3 text-center">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp" required>
+                      <div id="emailHelp" class="form-text">This is confidential infomation </div>
+                    </div>
+                    <div class="mb-3 text-center">
+                      <label for="exampleInputmessage1" class="form-label">Message</label>
+                      <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                      <input type="text" class="form-control" id="exampleInputmessage1" name="message" required>
+                      <div id="messagedHelp" class="form-text"></div>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                  </form>
+          
+<!-- 
+            <div class="col-lg-4 text-center">
+              <div class="card-body contact h-100 white-text">
+                <h3 class="font-weight-bold my-4 pb-2">Contact information</h3>
+                <ul class="text-lg-left list-unstyled ml-4">
+                  <li>
+                    <p class="text-black"><i class="fas fa-map-marker-alt pr-2 p-1"></i>Gugulethu,Cape Town,South Africa</p>
+                  </li>
+                  <li>
+                    <p class="text-black"><i class="fas fa-phone pr-2 p-1"></i>+27 83 282 8451</p>
+                  </li>
+                  <li>
+                    <p class="text-black"><i class="fas fa-envelope pr-2 p-1"></i>sakhemzolisa@gmail.com</p>
+                  </li>
+                </ul>
+                <hr class="hr-light my-4">
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/company/linkedin/"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://twitter.com/MzolisaSakhe"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                  </li>
+                </ul>
+              </div> -->
+
       <footer>
+        <p class="text-muted"><i class="bi bi-geo-alt-fill"></i>24 New Rest, Gugulethu,</p>
+        <p class="text-muted"><i class="bi bi-phone"></i>083 282 8451</p>
+        <p class="text-muted"><i class="bi bi-envelope-fill"></i>sakhemzolisa@gmail.com</p>
+        <a href="https://twitter.com/MzolisaSakhe" target="_blank"> <i class="fa-brands fa-twitter"></i>Twitter</a>
+        <a href="https://www.linkedin.com/in/sakhe-mzolisa-507588230/" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin</a>
+        <a href="https://github.com/Sakhe12">Github</a>
         <p class="text-white text-center">Copyright &copy; 2022</p>
       </footer>
       </section>
