@@ -74,6 +74,8 @@ section {
 .image {
     height: 432px !important;
     width: 650px;
+    object-fit: contain;
+    object-position: center;
 }
 /* Work/Education */
 
